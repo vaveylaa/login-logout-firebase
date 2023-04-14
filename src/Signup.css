@@ -1,0 +1,40 @@
+
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* kutunun boyutunu ve arka plan rengini belirleyin */
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    /* kutunun kenarlarını yuvarlatın ve bir kenarlık verin */
+    border-radius: 20px;
+    border: 2px solid gray;
+  }
+
+body {
+  background-image: url(https://source.unsplash.com/random/1200x800?Art-backgrounds);
+
+  background-size: cover;
+}
+
+
+
+
+/* arka plan resmini hareket ettirmek için bir animasyon tanımlayın */
+@keyframes move {
+  /* animasyonun başlangıç durumunu belirleyin */
+  from {
+    /* arka plan resminin x eksenindeki konumunu belirleyin */
+    background-position-x: 0%;
+  }
+  /* animasyonun bitiş durumunu belirleyin */
+  to {
+    /* arka plan resminin x eksenindeki konumunu değiştirin */
+    background-position-x: -100%;
+  }
+}
+
+
+
